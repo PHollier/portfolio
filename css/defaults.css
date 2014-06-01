@@ -1,0 +1,15 @@
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.45;
+  font-family: 'bitterbold';
+  letter-spacing: 2.5px;
+  color: #2C3E50;
+}
